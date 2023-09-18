@@ -1,0 +1,75 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  height: 100vh;
+  background-color: rgb(20, 16, 31);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  /* width: 800px;
+  height: 400px; */
+  background-color: rgb(185, 171, 152);
+  border-radius: 30px;
+  padding: 50px 100px 50px 100px;
+  margin: 30px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, 1fr); /* Two rows */
+  justify-items: center;
+  align-items: center;
+ 
+}
+
+.box{
+  width: 70px;
+  height: 70px;
+  background-color: rgb(251, 242, 242);
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  
+}
+button {
+  padding: 10px 20px;
+  background-color: rgb(20, 16, 31);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 19px;
+}
+button:hover{
+  background-color: rgb(62, 50, 94);
+
+}
+
+.button-container {
+  grid-column: span 5; /* Span all 5 columns */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; /* Add some top margin to separate it from the boxes */
+}
+
+.title{
+  color: aliceblue;
+  text-align: center;
+  font-size: 50px;
+}
+
+.subtitle{
+  color: aliceblue;
+  font-size: larger;
+  text-align: center;
+  margin-top: 10px;
+}
